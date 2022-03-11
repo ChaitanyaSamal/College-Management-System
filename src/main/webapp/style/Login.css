@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+	margin : 0;
+	padding: 0;
+	background-image: url(nitk.jpg);
+	background-position: 0 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.center {
+    align-items: center;
+    box-shadow: 0 .1rem 1.2rem black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+nav{
+
+	background-color: white;
+	height: 80px;
+}
+
+.a{
+	display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    position: sticky;
+}
+nav ul li{
+
+	font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(72, 99, 160);
+    padding: 8px 25px;
+    transition: all .5s ease;
+    display: flex;
+}
+nav ul li a:hover{
+    background-color: none;
+    color: red;
+}
+
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border:1px solid #999;
+	outline: none;
+}
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border:none;
+	outline:none;
+
+}
+.img{
+	width: 70px;
+	margin-top: -50px;
+}
+#loginform
+{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	border-radius: 25px;
+	background:white;
+	padding: 20px;
+	margin:10% auto 0;
+	text-align: center;
+}
+#loginhead{
+	color: purple;
+	margin-bottom: 20px;
+	font-size: 35px;
+
+}
+.login-input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border:1px solid #999;
+	outline: none;
+}
+.loginbut{
+background-color: #21afde;
+}
+.or{
+	background:#fff;
+	width:30px;
+	margin: -8px auto 10px;
+}
+.hr{
+	margin-top:  12px;
+}
+
+#contact{
+    margin-top: 15%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+.d{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    font-size: 30px;
+    font-weight: bold;
+}
+.address{
+    margin-top: 30px;
+    color: rgb(255,255,255,0.7);
+}
+.phone{
+    margin-top: 15px;
+    color: rgb(255,255,255,0.7);
+}
+.mail{
+    margin-top: 15px;
+    color: white;
+}
+.mail a{
+    color: white;
+}
+
+#mess {
+	color: red;
+}

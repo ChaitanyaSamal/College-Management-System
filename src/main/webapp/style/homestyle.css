@@ -1,0 +1,380 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+	margin : 0;
+	padding: 0;
+	background-image: none;
+    background-color: white;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    align-items: center;
+    box-shadow: 0 .1rem 1.2rem black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+nav{
+	background: white;
+	height: 80px;
+}
+.a{
+	display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    position: sticky;
+}
+nav ul li{
+	font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(72, 99, 160);
+    padding: 8px 25px;
+    transition: all .5s ease;
+    display: flex;
+}
+nav ul li a:hover{
+    background-color: none;
+    color: red;
+}
+
+.slider-box {
+    width     : 100%;
+    max-height: 90vh;
+    position  : relative;
+    overflow  : hidden;
+    margin-top: 120px;
+}
+
+#slider {
+    width     : 100%;
+    display   : inline-flex;
+    transition: 0.7s;
+}
+
+#slider img {
+    width: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 15px;
+    height       : 15px;
+    border-radius: 50%;
+    background   : rgba(51, 43, 43, 0.5);
+    cursor       : pointer;
+}
+
+.active {
+    background: rgba(255, 250, 250, 0.5) !important;
+}
+
+#ranking{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.below_slider #ranking h2{
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+.below_slider #ranking h2::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background: rgb(185, 185, 185, .5);
+    margin-left: 120%;
+    margin-top: -11%;
+}
+.b1{
+    margin-top: 4%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.nirf_eng_rank_L{
+    display: block;
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-right: 25px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(197, 23, 23, 0.7);
+    padding-bottom: 10px;
+}
+.eng_rank_digit{
+    font-size: 30px;
+    color: rgba(197, 23, 23, 0.7);
+    font-weight: 900;
+    display: block;
+}
+.eng_rank_word{
+    font-size: 16px;
+    display: block;
+    font-weight: 900;
+}
+.b2{
+    margin-top: 10%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.nirf_overall_rank_L{
+    display: block;
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-right: 25px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(197, 23, 23, 0.7);
+    padding-bottom: 10px;
+}
+.overall_rank_digit{
+    font-size: 30px;
+    color: rgba(197, 23, 23, 0.7);
+    font-weight: 900;
+    display: block;
+}
+.overall_rank_word{
+    font-size: 16px;
+    display: block;
+    font-weight: 900;
+}
+.b3{
+    margin-top: 16%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.qs_india_rank_L{
+    display: block;
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-right: 25px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(197, 23, 23, 0.7);
+    padding-bottom: 10px;
+}
+.qs_india_rank_digit{
+    font-size: 30px;
+    color: rgba(197, 23, 23, 0.7);
+    font-weight: 900;
+    display: block;
+}
+.qs_india_rank_word{
+    font-size: 16px;
+    display: block;
+    font-weight: 900;
+}
+
+#news{
+    width: 60%;
+    float: right;
+    margin-top: 20px;
+}
+.below_slider #news h2{
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+}
+.below_slider #news h2::after{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 3px;
+    position: absolute;
+    background: rgb(185, 185, 185, .5);
+    margin-left: 110%;
+    margin-top: -5.5%;
+}
+.c1{
+    margin-top: 4%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.news_date1{
+    display: block;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: rgba(61, 58, 58, 0.6);
+    font-weight: 600;
+}
+
+.news_text1 a{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+.news_text1 a:hover{
+    background-color: none;
+    color: red;
+    
+}
+.c2{
+    margin-top: 9%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.news_date2{
+    display: block;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: rgba(61, 58, 58, 0.6);
+    font-weight: 600;
+}
+.news_text2 a{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+.news_text2 a:hover{
+    background-color: none;
+    color: red;
+}
+.c3{
+    margin-top: 14%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.news_date3{
+    display: block;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: rgba(61, 58, 58, 0.6);
+    font-weight: 600;
+}
+.news_text3 a{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+.news_text3 a:hover{
+    background-color: none;
+    color: red;
+}
+.c4{
+    margin-top: 19%;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.news_date4{
+    display: block;
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: rgba(61, 58, 58, 0.6);
+    font-weight: 600;
+}
+.news_text4 a{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+.news_text4 a:hover{
+    background-color: none;
+    color: red;
+}
+
+#contact{
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+.d{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    font-size: 30px;
+    font-weight: bold;
+}
+.address{
+    margin-top: 30px;
+    color: rgb(255,255,255,0.7);
+}
+.phone{
+    margin-top: 15px;
+    color: rgb(255,255,255,0.7);
+}
+.mail{
+    margin-top: 15px;
+    color: white;
+}
+.mail a{
+    color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
